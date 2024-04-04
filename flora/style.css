@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lora", serif;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    color: #124F2E;
+    padding: 30px 120px;
+}
+
+.nav img{
+    width: 212px;
+}
+
+.right{
+    font-size: 16px;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+.right i{
+    position: relative;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.it{
+    position: absolute;
+    top: -5px;
+    left: 11px;
+    width: 13px;
+    height: 13px;
+    background-color: #f34f3f;
+    font-size: 8px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.5em;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.mn{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.mn a{
+    color: #082013;
+    margin: 0 10px;
+    transition: all 0.5s ease;
+    margin: 0 20px ;
+
+}
+
+.mn a:hover{
+    border-bottom: 1px solid #082013;
+    color: #082013;
+}
+
+.main{
+    background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-2.jpg);
+    padding: 100px 120px;
+    }
+
+.main div{
+    width: 460px;
+}
+
+.main h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.main p{
+    font-size: 14px;
+    color: #585858;
+    padding: 20px 0;
+}
+
+.main a{
+    background-color: #124F2E;
+    color: #ffffff;
+    border: 1px solid #262626;
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: all .4s ease;
+}
+
+
+.main a:hover{
+    background-color: #262626;
+    color: #fff;
+}
+
+#prod{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 120px;
+    gap:40px;
+}
+
+.items{
+    position: relative;
+    text-align: center;
+    width: 22%;
+    height: 400px;
+    cursor: pointer;
+}
+
+.items img{
+    width: 100%;
+    transition: 0.3s;
+}
+.item-img{
+    transition: 0.3s;
+}
+
+.desc{
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.desc h3{
+    font-size: 14px;
+    font-weight: 500;
+    color: #262626;
+    margin: 5px 0;
+}
+
+.slide span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #7f8b8a;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.slide{
+    position: relative;
+    padding: 5px 0 20px 0;
+}
+
+.slide span:nth-child(1){
+    position: absolute;
+    left:45%;
+    opacity: 1;
+}
+
+.slide span:nth-child(2){
+    position: absolute;
+    left:-6%;
+    opacity: 0;
+}
+
+.items:hover span:nth-child(2){
+    position: absolute;
+    left:35%;
+    opacity: 1;
+}
+
+.items:hover span:nth-child(1){
+    position: absolute;
+    left:80%;
+    opacity: 0;   
+}
+
+.items:hover .item-img{
+    transform: scale(1.03);
+}
+
+.items p{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 14px;
+    background-color: #1b1b1b;
+    color: #ffffff;
+    padding: 8px 16px;
+}
+
+.title{
+    width: 560px;
+
+    text-align: center;
+    margin: auto;
+}
+
+.title h2{
+    font-size: 38px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.title p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.blog{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px;
+    text-align: center;
+}
+
+.blog-items{
+    width: 31%;
+    gap: 40px;  
+    padding-bottom: 50px;  
+}
+
+.blog-items img{
+    width: 100%;
+    transition: 0.3s;
+}
+
+.bi-img{
+    position: relative;
+    overflow: hidden;    
+}
+
+.blog-items:hover img{
+    transform: scale(1.05);
+}
+
+.blog-items h4{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.blog-items p{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 20px;
+    color: #7f8b8a;
+}
+
+.bi-img span{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    background-color: #fff;
+    color: #082013;
+    padding: 8px 16px;
+}

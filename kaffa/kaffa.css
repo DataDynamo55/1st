@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+#product{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#product h5{
+    font-size: 20px;
+    color: darkgreen;
+
+}
+
+#product h3{
+    font-size: 56px;
+    color: black;
+}
+
+.prod{
+    display: flex;
+    padding: 30px 40px;
+}
+
+.items{
+    width: 22%;
+    justify-content: space-between;
+    padding: 20px 20px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.items h2{
+    font-size: 24px;
+    margin: 20px 0 15px 0;
+}
+
+.items p{
+    font-size: 14px;
+    color: rgb(53, 53, 53);
+}
+
+.items img{
+    width: 100%;
+    transition: 0.3s;
+}
+
+.items:hover img{
+    transform: scale(1.1);
+}
+
+#info{
+    position: relative;
+    background-image: url(http://kaffa.like-themes.com/wp-content/uploads/2019/06/house_parallax.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    padding: 120px 0;
+}
+
+#info::after{
+    content: ""; 
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    background-color: #151515e6;
+    z-index: 1;
+}
+
+.head{
+    width: 650px;
+    justify-content: space-between;
+    padding-left: 50px;
+    z-index: 2;
+}
+
+.head h2{
+    font-size: 80px;
+    color: #fff;
+    line-height: 1;
+}
+
+.head span{
+    color: #4D8B55;
+}
+
+.head p{
+    color: #bdbdbd;
+    font-size: 16px;
+    line-height: 1.7;
+    padding-top: 20px;
+}
+
+.loc{
+    display: flex;
+    align-items: center;
+    padding: 40px 50px;
+}
+
+.loc i{
+    font-size: 38px;
+    color: #4D8B55;
+    padding-right: 10px;
+}
+
+.loc p{
+    color: #4D8B55;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.loc span{
+    color: #bdbdbd;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn{
+    padding: 40px 50px;
+    display: flex;
+}
+
+.btn a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn div{
+    width: 260px;
+    height: 75px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50px;
+    margin-right: 40px;
+    transition: 0.3s;    
+}
+
+.btn div:nth-child(1){
+    background-color: #4D8B55;
+}
+
+.btn div:nth-child(2){
+    background-color: #151515;
+}
+
+.btn div:hover{
+    background-color: #fff;
+}
+
+.btn div:hover a{
+    color: #050505;
+}
+
+#feat{
+    background-color: #4D8B55;
+    padding: 60px 100px;
+}
+
+.feature{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.feature i{
+    color: #fff;
+    font-size: 52px;
+}
+
+.feature i{
+    transition: 0.3s;
+}
+
+.feature div:hover i{
+    transform: translateY(-10px);
+}
+
+.feature h5{
+    color: #0b0e11;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#foot{
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    background-image: url(https://www.shipbob.com/wp-content/uploads/2023/04/3c0cc0b0d691ad7fd7b47fe1bddeb836.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+#foot::after{
+    content: ""; 
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    background-color: #151515e6;
+    z-index: 1;
+}
+
+
+.bottom{
+    border-top: 1px solid #fff;
+    color: #fff;
+    padding: 20px 50px;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.etc{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 50px;
+    z-index: 2;
+
+}
+
+.etc h3{
+    font-size: 24px;
+    color: #4D8B55;
+    border-bottom: 2px solid #4D8B55;
+    width: 250px;
+
+}
+
+.etc p{
+    font-size: 14px;
+    color: #bdbdbd;
+    line-height: 1.7;
+}
+
+.etc-items{
+    width: 30%;
+    padding: 0 0px;
+}
+
+.ab{
+    margin: 40px 0;
+}
+
+.loc2{
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.loc2 i{
+    font-size: 26px;
+    color: #4D8B55;
+    padding-right: 10px;
+}
+
+.loc2 p{
+    color: #4D8B55;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.loc2 span{
+    color: #bdbdbd;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.social i{
+    color: #4D8B55;
+    padding: 30px 0;
+    margin-right: 40px
+}
+
+#subs{
+    margin: 40px 0;
+}
+
+.input-group{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 70px;
+    border-radius: 70px;
+    margin-bottom: 20px;
+}
+
+input{
+    border: none;
+    margin-left: 20px;
+    outline: none;
+}
+
+.btn-sub{
+    background-color: #4D8B55;
+    color: #fff;
+    border: none;
+    height: 70px;
+    border-radius: 70px;
+    min-width: 200px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-sub:hover{
+    background-color: #dfdfdf;
+    color: #151515;
+}
+label{
+    display: flex;
+}
+
+label a{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    padding-left: 10px;
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    padding: 80px;
+}
+
+#head{
+    background-color: #277DFD;
+}
+
+.head{
+    color: #fff;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.head h1{
+    font-size: 40px;
+    margin: 0 0 10px;
+}
+.head p{
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.head a{
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.about{
+    margin: 0 auto;
+    max-width: 66%;
+    text-align: left;
+}
+
+.about h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+
+}
+
+.about ul{
+    font-size: 16px;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+#services{
+    background-color: #F8F9FA;
+}
+
+.service{
+    padding: 100px 0;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 66%;
+    text-align: left;
+}
+
+.service h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.service p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.contact{
+    padding: 100px 0;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 66%;
+    text-align: left;
+}
+
+.contact h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.contact p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.foot{
+    text-align: center;
+    background-color: #212529;
+    color: #fff;
+    padding: 50px 0;
+}
